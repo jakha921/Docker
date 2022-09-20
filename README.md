@@ -95,4 +95,8 @@ docker push <img name>  # deploy to docker hub
 
 ```Docker
 sudo docker build -t <img_name> <directory>     # create own image
+
+sudo docker images      # checkout img
+
+sudo docker run <local_port>:<container_port> <image_name> 
 ```
